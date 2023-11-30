@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2250630403064512057}
   m_Layer: 0
-  m_Name: FEUP Stairs Set
+  m_Name: FEUP Stairs Set - A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
