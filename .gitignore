@@ -81,3 +81,9 @@ crashlytics-build.properties
 # Assets
 Assets/ThunderWire Studio/
 Assets/ThunderWire Studio.meta
+Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
+Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
+Assets/Flashlight/Materials/FlashlightBaseMaterial.mat
+Assets/Flashlight/Materials/FlashlightBulbMaterial.mat
+Assets/Flashlight/Materials/FlashlightLensMaterial.mat
+Assets/Flashlight/Materials/FlashlightReflectorMaterial.mat
