@@ -27201,9 +27201,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5979281235220082009, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+    - target: {fileID: 895857838350033429, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264293414250772930, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3834140466189080097, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5600870000928432891, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5979281235220082009, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6711267323768241407, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_LocalScale.x
@@ -27219,15 +27235,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6711267323768241407, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.27
+      value: -18.75
       objectReference: {fileID: 0}
     - target: {fileID: 6711267323768241407, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.34
+      value: -22.5
       objectReference: {fileID: 0}
     - target: {fileID: 6711267323768241407, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.6
+      value: 17.15
       objectReference: {fileID: 0}
     - target: {fileID: 6711267323768241407, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27280,6 +27296,14 @@ PrefabInstance:
     - target: {fileID: 7361345315849383631, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
       propertyPath: m_Name
       value: Secret Lab
+      objectReference: {fileID: 0}
+    - target: {fileID: 7454444133495064715, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8872534572205061952, guid: 6ce3fa69439644630b6c9966599d382c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
