@@ -13,6 +13,10 @@ public class SecretLabObstruction : MonoBehaviour
     public float dragDuration = 2f;
     public float timer = 0;
 
+    void Start(){
+        isOpenning = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -31,14 +35,11 @@ public class SecretLabObstruction : MonoBehaviour
     }
 
     public void OnLeverActive(){
-        isOpenning = true;
         isDragging = true;
         draggingSound.Play();
     }
     public void OnLeverDeactive(){
-        isOpenning = false;
-        isDragging = true;
-        draggingSound.Play();
+        isOpenning = !isOpenning;
     }
 
     void OnDestroy(){

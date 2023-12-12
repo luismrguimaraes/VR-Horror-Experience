@@ -1,6 +1,6 @@
 # RVA Project 2
 
-# How to run
+## How to run
 
 - Download and import the following asset packs:
     - https://assetstore.unity.com/packages/vfx/particles/volumetric-blood-fluids-173863 (Version >1.0.9)
