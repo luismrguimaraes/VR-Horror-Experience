@@ -9687,6 +9687,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpScareImage: {fileID: 982187901}
+  jumpScareImageDuration: 0.5
+  jumpScareSound: {fileID: 931892638}
+  backgroundSound: {fileID: 1885735457}
 --- !u!65 &931892637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10030,7 +10033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &982187902
 Transform:
   m_ObjectHideFlags: 0
@@ -10053,7 +10056,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982187901}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
