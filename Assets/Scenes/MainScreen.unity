@@ -1389,6 +1389,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   completeXROriginSetUp: {fileID: 1785652866}
+  initialPlayerPosition: {x: -0.981, y: -2.8, z: -7}
+  initialPlayerRotation: {x: 0, y: -86.34, z: 0}
 --- !u!114 &1702074833 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 29304935546587040, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
