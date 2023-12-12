@@ -31,13 +31,13 @@ public class SecretLabObstruction : MonoBehaviour
     }
 
     public void OnLeverActive(){
-        isDragging = true;
         isOpenning = true;
+        isDragging = true;
         draggingSound.Play();
     }
     public void OnLeverDeactive(){
-        isDragging = true;
         isOpenning = false;
+        isDragging = true;
         draggingSound.Play();
     }
 
