@@ -45,6 +45,7 @@ public class GameOverJumpScare : MonoBehaviour
 
             // Get the complete xr origin set up game object
             completeXROriginSetUp = GameObject.FindGameObjectWithTag("CompleteXROriginSetUp");
+            DontDestroyOnLoad(completeXROriginSetUp);
 
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
             completeXROriginSetUp.transform.position = finalPlayerPosition;
