@@ -8,3 +8,5 @@
     - https://assetstore.unity.com/packages/3d/modular-railing-set-17090#content
 - Run the "URP" file inside "HURP and URP patch" folder of the Volumetric Blood Fluids pack.
 - Convert the materials from the Modular Railing Set to URP by going to Edit -> Rendering -> Materials -> Convert Selected Built-In Materials to URP
+
+**Note:** The project was only tested on Oculus Rift
