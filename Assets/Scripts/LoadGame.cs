@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LoadGame : MonoBehaviour
 {
     public GameObject completeXROriginSetUp;
+    public GameObject XROrigin;
     public Vector3 initialPlayerPosition;
     public Vector3 initialPlayerRotation;
 
@@ -18,8 +19,8 @@ public class LoadGame : MonoBehaviour
     public void LoadScene()
     {
         SceneManager.LoadScene("VR Horror Scene");
-        completeXROriginSetUp.transform.position = initialPlayerPosition;
-        completeXROriginSetUp.transform.rotation = Quaternion.Euler(initialPlayerRotation);
+        XROrigin.transform.position = initialPlayerPosition;
+        XROrigin.transform.rotation = Quaternion.Euler(initialPlayerRotation);
     }
 
 
