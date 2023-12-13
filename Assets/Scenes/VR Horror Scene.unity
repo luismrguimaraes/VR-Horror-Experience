@@ -10205,7 +10205,7 @@ MonoBehaviour:
   jumpScareImageDuration: 0.5
   jumpScareSound: {fileID: 931892638}
   backgroundSound: {fileID: 1885735457}
-  finalPlayerPosition: {x: 0, y: 0, z: 0}
+  finalPlayerPosition: {x: 0.398, y: -0.87, z: -2.369}
   finalPlayerRotation: {x: 0, y: 0, z: 0}
 --- !u!65 &931892637
 BoxCollider:
