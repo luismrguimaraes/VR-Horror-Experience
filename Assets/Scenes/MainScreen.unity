@@ -1518,9 +1518,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2751303340684df580341a745e5daad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  completeXROriginSetUp: {fileID: 59277210}
-  initialPlayerPosition: {x: -0.981, y: -2.8, z: -7}
-  initialPlayerRotation: {x: 0, y: -86.34, z: 0}
+  completeXROriginSetUp: {fileID: 1785652866}
+  XROrigin: {fileID: 59277210}
+  initialPlayerPosition: {x: -0.981, y: -2.5, z: -7}
+  initialPlayerRotation: {x: 0, y: 0, z: 0}
 --- !u!114 &1702074833 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 29304935546587040, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
@@ -1712,7 +1713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4356456892009499901, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.87
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4356456892009499901, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1793,6 +1794,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 806715760}
   m_SourcePrefab: {fileID: 100100000, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+--- !u!1 &1785652866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6947604102996551011, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
+  m_PrefabInstance: {fileID: 1785652865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1937775386
 GameObject:
   m_ObjectHideFlags: 0
