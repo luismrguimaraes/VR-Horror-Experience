@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class GameOverJumpScare : MonoBehaviour
 {
+    public GameObject completeXROriginSetUp;
     public GameObject jumpScareImage;
     public float jumpScareImageDuration = 1f;
     public AudioSource jumpScareSound;
     public AudioSource backgroundSound;
+    public Vector3 finalPlayerPosition;
+    public Vector3 finalPlayerRotation;
 
     float timer;
     bool counting;
@@ -39,7 +42,13 @@ public class GameOverJumpScare : MonoBehaviour
             jumpScareImage.GetComponent<SpriteRenderer>().enabled = false;
             // Change scene to GameOver scene
             DontDestroyOnLoad(jumpScareImage);
+
+            // Get the complete xr origin set up game object
+            completeXROriginSetUp = GameObject.FindGameObjectWithTag("CompleteXROriginSetUp");
+
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+            completeXROriginSetUp.transform.position = finalPlayerPosition;
+            completeXROriginSetUp.transform.rotation = Quaternion.Euler(finalPlayerRotation);
         }
     }
 }

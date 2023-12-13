@@ -10,6 +10,7 @@ TagManager:
   - MiniWorldCamera
   - Water
   - JumpScareImage
+  - CompleteXROriginSetUp
   layers:
   - Default
   - TransparentFX
