@@ -1,4 +1,4 @@
-# RVA Project 2
+# VR Horror Experience
 
 This project was developed Oculus Rift and OpenXR, so it should work with the most popular VR Devices.
 
